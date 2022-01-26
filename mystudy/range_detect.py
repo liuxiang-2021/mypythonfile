@@ -5,6 +5,8 @@
 # @Software: PyCharm
 # @email    ：liuxiang@hesaitech.com
 
+
+#oh,no
 from matplotlib import pyplot as plt
 import pandas as pd
 import glob
@@ -28,6 +30,7 @@ class range_detect(object):
             self.name = name.split('.')[0]
             df = pd.read_csv(frame)
             self.plot_data(df)
+print('I am here')
 
 
     def plot_data(self,data):
