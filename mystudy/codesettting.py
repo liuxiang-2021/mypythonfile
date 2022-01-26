@@ -74,13 +74,15 @@ def save_screenshot(folder_path, num):
     image_path = os.path.join(folder_path, image_name)
     im.save(image_path)
 
+#add comment here and retest
+
 if __name__ == '__main__':
     # Before upgrade, please confirm sensor version is not "xxxxx"
     relay_host = "192.168.1.210"
     relay_port = 8089
     relay_channel = "1"
     test_host = "192.168.1.201"
-    # IP已经写死，不能修改
+    # IP fixed, can not be modified.
     udpPort = 2368
 
     code_file = r"Z:\TempTestCases\liyuda\p128_encoding\p128V42code_version2.csv"
