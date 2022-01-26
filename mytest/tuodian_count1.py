@@ -39,10 +39,11 @@ if __name__ == "__main__":
             minIndex = i
             break
 
-    benchMarkAzi = aziList[i]
-    benchMarkEle = eleList[i]
+   # benchMarkAzi = aziList[i]
+   # benchMarkEle = eleList[i]
 
-    print("基准点：",benchMarkAzi,benchMarkEle)
+   # print("基准点：",benchMarkAzi,benchMarkEle)
+   print('for git test')
 
     for i in range(len(distanceList)):
         a = math.pi
